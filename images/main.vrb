@@ -1,7 +1,0 @@
-\frametitle{Bloch Sphere}
-It turns out it is also convenient to represent a qubit as a point in a 3 dimensional space, where each diameter is a orthornormal basis of a qubit. Note that the angles are doubled in this representation.
-        \begin{figure}[htbp]
-          \centering
-          \includegraphics[width=0.5\textwidth]{bloch.png}
-          \caption{Location of certain single-qubit states on the surface of the Bloch sphere.}
-    \end{figure}
