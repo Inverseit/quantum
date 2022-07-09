@@ -1,0 +1,63 @@
+\documentclass[12pt]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+% \graphicspath{ {./images/} }
+\usepackage{array}
+\usepackage[sexy]{evan}
+\usepackage{chronology}
+
+\usepackage{tikz}
+\usetikzlibrary{decorations.pathreplacing}
+
+\usepackage[style=ieee]{biblatex}
+\addbibresource{annot.bib}
+
+% \date{\today}
+\title{Exploiting Quantum Computing for~Indoor Localization}
+\author{Ulan Seitkaliyev}
+
+\begin{document}
+% \maketitle
+\input{title.tex}
+
+
+% Progress Report: Submit a Progress Report of 2 pages maximum 4-5 weeks after the beginning of the project to the QSIURP Committee. The report should highlight the PROGRESS MADE as described in the project timetable, the CHALLENGES met and the STRATEGIES used to tackle them. The progress report has to be approved by the Faculty Advisor before submitting it to the QSIURP Committee. Continuation of funding of the research project is contingent on approval of the progress report by the QSIURP Committee.
+
+\section{Progress made so far}
+
+I have started the QSIURP program starting from May 17. From that time during the first four weeks, according to the plan I had to 
+\begin{itemize}
+    \item Finish the \href{https://qiskit.org/textbook-beta/course/introduction-course}{Introduction to Quantum Computing} \cite{ibm} course.
+    \item Read and understand Qiskit Textbook \cite{ibm} which covers the mathematics behind quantum algorithms and details of ideal quantum devices. 
+    \item Cover the following topics: Quantum Entanglement, Shor's algorithm \cite{shor}, Grover's algorithm \cite{grover}, Quantum Walk Algorithm \cite{quantumwalk}, and other applied quantum algorithms.
+\end{itemize}
+
+The progress made so far is 
+
+\begin{itemize}
+    \item Finished reading   \href{https://qiskit.org/textbook-beta/course/introduction-course}{Introduction to Quantum Computing} \cite{ibm} course and doing its practical part with geometric view of the Grover's algorithm. This covered concepts of Quantum Computing, but lacked the mathematical concreteness, as we have expected.
+    \item To compensate this need, I have covered Qiskit Textbook \cite{ibm}'s first 4 chapters, skipping other 2 chapters about quantum hardware, as we have decided that it is beyond of the scope of our research interest.
+    \item To demonstrate the understanding of various quantum concepts, algorithms and their applications, we have been creating series of presentations, that can be followed by anyone with classical computation background. We have attached its current version with this report.
+    \item I have assumed that Qiskit Textbook sometimes drops theoretical details, so I decided to start reading another, more theoretically inclined Quantum Computing: A Gentle Introduction \cite{rieffelbook} book, that filled up some gaps about quantum state representation after skimming over already covered materials: Chapters Single-Qubit Quantum Systems, Multiple-Qubit Systems, Measurement of the Multiple-Qubit States, Quantum State Transformations, and some Quantum Versions of Classical Computations chapter. You cann see the following structure in our presentation, too.
+    
+    \item To learn the narrative and possible learn other directions that could be missed in books, I decided to watch lectures and found available lectures of \href{15-859BB: Quantum Computation and Quantum Information 2018}{} by Ryan O'Donnell
+    Watched lectures 10, 11, 12, 13, 14, 15, and 16 by Ryan O'Donnell. Covering topics basics of Quantum computing, Revealing $XOR (\oplus)$ patterns, Simon’s Algorithm done in a different way, The Fourier Transform over $Z_n$ , Period Finding, Shor’s factoring Algorithm.
+\end{itemize}
+
+
+\section{Timeline}
+
+\hspace{\parindent} The project will begin on May 15, 2022 and end on July 23, 2022 (10 weeks). It requires a~QSIURP fellowship with remuneration for the research of 37.5 hours per week, which is 13125 QAR.
+
+We will adhere to the following timeline:
+
+\vspace{0.5cm}
+
+\input{timeline}
+
+\newpage
+\section{Bibliography}
+\printbibliography[heading=none]
+
+\end{document}
